@@ -1,0 +1,3 @@
+[submodule "picostats"]
+	path = picostats
+	url = https://github.com/picostats/picostats.git
