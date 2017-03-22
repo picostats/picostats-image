@@ -5,9 +5,10 @@
     "redis_url":            "localhost:6379",
     "listen_addr":          "127.0.0.1:8080",
     "log_sql":              false,
-    "dev":                  true,
+    "dev":                  false,
     "registration_enabled": false,
     "encryption_key":       "PICOSTATS_KEY",
     "sparkpost_key":        "",
-    "demo_lock":            0
+    "demo_lock":            0,
+    "max_websites":         0
 }
