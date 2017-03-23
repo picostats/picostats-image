@@ -16,6 +16,7 @@ VOLUME /var/lib/postgresql/data
 COPY docker-entrypoint.sh /
 COPY picostats/picostats /
 COPY config.json /
+COPY picostats/timezones.json /
 COPY supervisor.ini /etc/supervisor.d/
 COPY redis.conf /etc/
 COPY picostats/public /public
